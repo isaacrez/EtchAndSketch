@@ -40,6 +40,7 @@ label {
     width: 75vh;
 
     display: grid;
+    gap: 1px;
 
     background-color: rgb(50, 50, 50);
     border: solid 2px hsl(120, 65%, 65%);
