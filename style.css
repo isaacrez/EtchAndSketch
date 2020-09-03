@@ -9,16 +9,14 @@ html {
 }
 
 body {
-    padding: 0;
-    margin: 0;
-}
-
-#body {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 
+    padding: 0;
+    margin: 0;
+    
     width: 100vw;
     height: 100vh;
 }
@@ -38,14 +36,39 @@ label {
 #content {
     height: 75vh;
     width: 75vh;
+    margin-bottom: 2vh;
 
     display: grid;
     gap: 1px;
 
     background-color: rgb(50, 50, 50);
-    border: solid 2px hsl(120, 65%, 65%);
+    border: solid 5px hsl(120, 65%, 65%);
+    border-radius: 10px;
 }
 
 .colored {
     background-color: white;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 30px;
+    width: 100%;
+
+    background-color: black;
+}
+
+.icon {
+    height: 25px;
+    width: auto;
+    fill: hsl(120, 65%, 65%);
+}
+
+a {
+    color: hsl(120, 65%, 65%);
+    text-decoration: none;
 }
