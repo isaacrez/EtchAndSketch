@@ -23,16 +23,16 @@ body {
     height: 100vh;
 }
 
-form {
+.inputs {
     display: flex;
     justify-content: space-around;
-    width: 100%;
+    width: 75vh;
 
     margin: 10px 10px;
 }
 
-form div * {
-    display: inline;
+label {
+    align-self: center;
 }
 
 #content {
