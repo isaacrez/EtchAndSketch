@@ -1,0 +1,46 @@
+
+html {
+    padding: 0;
+    margin: 0;
+    line-height: 0;
+
+    color: hsl(120, 65%, 65%);
+    background-color: rgb(25, 25, 25);
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+#body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 100vw;
+    height: 100vh;
+}
+
+form {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+
+    margin: 10px 10px;
+}
+
+form div * {
+    display: inline;
+}
+
+#content {
+    height: 75vh;
+    width: 75vh;
+
+    display: grid;
+
+    background-color: rgb(50, 50, 50);
+    border: solid 2px hsl(120, 65%, 65%);
+}
