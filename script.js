@@ -20,7 +20,7 @@ function removeAllChildren(parent) {
 }
 
 function colorCell(e) {
-    this.style.backgroundColor = 'white';
+    this.classList.toggle('colored');
 }
 
 const gridSize = document.querySelector('#gridSize');

@@ -44,3 +44,7 @@ label {
     background-color: rgb(50, 50, 50);
     border: solid 2px hsl(120, 65%, 65%);
 }
+
+.colored {
+    background-color: white;
+}
